@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/app_blue">
+    <ImageView
+        android:id="@+id/dun_imgv"
+        android:layout_width="110dp"
+        android:layout_height="100dp"
+        android:src="@mipmap/img_dun"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"/>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/img_heartdun"
+        android:layout_marginTop="-75dp"
+        android:layout_gravity="center"
+        android:id="@+id/img_heartdun" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="跟 随 你 的 心"
+        android:textSize="20sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="60dp"
+        android:textColor="#FFFFFF"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="250dp"
+        android:text="－迹 忆－"
+        android:textColor="#FFFFFF"
+        android:textSize="20sp" />
+</LinearLayout>

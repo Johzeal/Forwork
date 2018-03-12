@@ -1,0 +1,381 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="1.5">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="0dp"
+            android:layout_marginLeft="0dp"
+            android:src="@mipmap/img_title"
+            android:layout_gravity="center_vertical" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:gravity="center"
+        android:layout_weight="5">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="5dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="1">
+                <ImageButton
+                    android:id="@+id/imgBtn_hearttest"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/img_hearttest"
+                    android:layout_gravity="center"
+                    android:paddingTop="7dp"
+                    android:scaleType="centerInside"
+                    android:background="#FFFFFF"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="心理测试"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/imgBtn_heartdoc"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/img_heartdoc"
+                    android:layout_gravity="center"
+                    android:paddingTop="7dp"
+                    android:scaleType="centerInside"
+                    android:background="#FFFFFF"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:text="心理医生"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageButton
+                    android:id="@+id/imgBtn_teacher"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:src="@mipmap/img_teacher"
+                    android:layout_gravity="center"
+                    android:paddingTop="7dp"
+                    android:scaleType="centerInside"
+                    android:background="#FFFFFF"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:text="辅导员/班主任"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:orientation="horizontal">
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imgBtn_sport"
+                        android:src="@mipmap/img_sport"
+                        android:layout_gravity="center"
+                        android:paddingTop="7dp"
+                        android:scaleType="centerInside"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp"
+                        android:text="运动"
+                        android:textColor="#000000"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:id="@+id/imgBtn_library"
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:src="@mipmap/img_library"
+                        android:layout_gravity="center"
+                        android:paddingTop="7dp"
+                        android:scaleType="centerInside"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp"
+                        android:text="图书馆"
+                        android:textColor="#000000"
+                        android:gravity="center"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="70dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+                    <ImageButton
+                        android:layout_width="40dp"
+                        android:layout_height="50dp"
+                        android:id="@+id/imgBtn_food"
+                        android:src="@mipmap/img_food"
+                        android:layout_gravity="center"
+                        android:paddingTop="7dp"
+                        android:scaleType="centerInside"
+                        android:background="#FFFFFF"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="18dp"
+                        android:text="饮食"
+                        android:textColor="#000000"
+                        android:gravity="center"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imgBtn_ktv"
+                    android:src="@mipmap/img_ktv"
+                    android:layout_gravity="center"
+                    android:paddingTop="7dp"
+                    android:scaleType="centerInside"
+                    android:background="#FFFFFF"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:text="k歌"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <ImageButton
+                    android:id="@+id/imgBtn_game"
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center"
+                    android:background="#FFFFFF"
+                    android:paddingTop="7dp"
+                    android:scaleType="centerInside"
+                    android:src="@mipmap/img_game" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:text="电竞"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="70dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+                <ImageButton
+                    android:layout_width="40dp"
+                    android:layout_height="50dp"
+                    android:id="@+id/imgBtn_movie"
+                    android:src="@mipmap/img_movie"
+                    android:layout_gravity="center"
+                    android:paddingTop="7dp"
+                    android:scaleType="centerInside"
+                    android:background="#FFFFFF"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="18dp"
+                    android:text="电影"
+                    android:textColor="#000000"
+                    android:gravity="center"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="5dp"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="0dp"
+        android:layout_weight="4">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="vertical"
+            android:layout_marginTop="-10dp">
+
+            <ImageButton
+                android:id="@+id/imgBtn_heartessay"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="12"
+                android:scaleType="centerCrop"
+                android:src="@mipmap/img_heartessay" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="2"
+                android:text="减压文章"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="5"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageButton
+                    android:id="@+id/imgBtn_heartsrc"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/img_heartsrc"
+                    android:scaleType="centerCrop"
+                    android:background="#FFFFFF"/>
+
+                <TextView
+                    android:layout_height="match_parent"
+                    android:text="减压图片"
+                    android:gravity="center"
+                    android:layout_width="25dp"
+                    android:paddingLeft="10dp"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="1">
+
+                <ImageButton
+                    android:id="@+id/imgBtn_heartmusic"
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:src="@mipmap/img_heartmusic"
+                    android:scaleType="centerCrop"
+                    android:background="#FFFFFF"/>
+
+                <TextView
+                    android:layout_width="25dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:paddingLeft="10dp"
+                    android:text="减压音乐" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1.05"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_footgray1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/img_foot_gray" />
+
+            <Button
+                android:id="@+id/btn_findblue1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/img_find_blue" />
+
+            <Button
+                android:id="@+id/btn_minegray1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@mipmap/img_mine_gray" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

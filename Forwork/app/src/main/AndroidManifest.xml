@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.zhujiaxiang.forwork">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+
+        <!--融云-->
+        <!--<meta-data-->
+            <!--android:name="RONG_CLOUD_APP_KEY"-->
+            <!--android:value="lmxuhwagl0lwd" />-->
+        <!--<provider-->
+            <!--android:name="android.support.v4.content.FileProvider"-->
+            <!--android:authorities="com.example.zhujiaxiang.forwork.FileProvider"-->
+            <!--android:exported="false"-->
+            <!--android:grantUriPermissions="true">-->
+            <!--<meta-data-->
+                <!--android:name="android.support.FILE_PROVIDER_PATHS"-->
+                <!--android:resource="@xml/rc_file_path" />-->
+        <!--</provider>-->
+
+        <!--<activity android:name=".tools.IMCoversationActivity"-->
+            <!--android:screenOrientation="portrait"-->
+            <!--android:windowSoftInputMode="stateHidden|adjustResize">-->
+            <!--<intent-filter>-->
+                <!--<action android:name="android.intent.action.VIEW" />-->
+
+                <!--<category android:name="android.intent.category.DEFAULT" />-->
+
+                <!--<data-->
+                    <!--android:host="com.example.zhujiaxiang.forwork"-->
+                    <!--android:pathPrefix="/conversation/"-->
+                    <!--android:scheme="rong" />-->
+            <!--</intent-filter>-->
+        <!--</activity>-->
+
+
+        <activity android:name=".tools.AnimationActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".MainActivity"
+            android:launchMode="singleTask">
+        </activity>
+
+        <!--foot包中的Activity-->
+        <!--FootActivity嵌套在NavActivity中，跳转NavActivity-->
+        <activity android:name=".foot.FootActivity"></activity>
+        <activity android:name=".foot.NavActivity">
+
+        </activity>
+        <activity android:name=".foot.FootPrintActivity"></activity>
+        <activity android:name=".foot.WeatherActivity"></activity>
+        <activity android:name=".foot.HealthActivity"></activity>
+        <activity android:name=".foot.DataActivity"></activity>
+        <activity android:name=".foot.FriendTalkActivity"></activity>
+        <activity android:name=".foot.IrrelevanceActivity"></activity>
+
+        <!--tools包中的Activity-->
+        <activity android:name=".tools.Md5Activity"></activity>
+        <activity android:name=".tools.TicklingActivity"></activity>
+
+        <!--find包中的Activity-->
+        <activity android:name=".find.FindActivity"></activity>
+        <activity android:name=".find.HearttestActivity"></activity>
+        <activity android:name=".find.HeartessayActivity"></activity>
+        <activity android:name=".find.HeartsrcActivity"></activity>
+        <activity android:name=".find.HeartmusicActivity"></activity>
+        <activity android:name=".find.LibraryActivity"></activity>
+
+        <!--mine包中的Activity-->
+        <activity android:name=".mine.MineActivity">
+
+        </activity>
+    </application>
+    <!--网络权限-->
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <!--写入卡权限-->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <!--拨打电话权限-->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!--读卡权限-->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <!-- 获取机型信息权限 -->
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <!-- 录音 -->
+
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+
+    <uses-permission android:name="android.permission.INTERACT_ACROSS_USERS_FULL" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+</manifest>

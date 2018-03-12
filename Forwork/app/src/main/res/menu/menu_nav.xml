@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--指定单选-->
+    <group android:checkableBehavior="single"
+        android:id="@+id/test1">
+
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@mipmap/img_nav_location"
+            android:title="行走步数"/>
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@mipmap/img_nav_test"
+            android:title="做过的测试"/>
+        <item
+            android:id="@+id/nav_collect"
+            android:icon="@mipmap/img_nav_collect"
+            android:title="我的收藏"/>
+        <item
+            android:id="@+id/nav_clearCache"
+            android:title="清理缓存"
+            android:icon="@mipmap/img_loading"/>
+
+    </group>
+
+    <group
+        android:checkableBehavior="single"
+        android:id="@+id/test2">
+        <item
+            android:id="@+id/nav_suggestion"
+            android:title="意见反馈"
+            android:icon="@mipmap/img_nav_suggestion"/>
+
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@mipmap/img_nav_logout"
+            android:title="退出账号"/>
+    </group>
+
+</menu>
